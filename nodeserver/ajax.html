@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<body>
+    <span class="inner"></span>
+    <script src="jquery-1.9.1.min.js"></script>
+    <script>
+        $(function () {
+            $.ajax({
+                type: 'get',
+                url: 'http://192.168.0.82:3000/questions',
+                success: function (data) {
+                    console.log(data)
+                },
+                error: function () {
+                    console.log('error');
+                }
+            })
+        })
+    </script>
+</body>
+
+</html>

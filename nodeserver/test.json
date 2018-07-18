@@ -1,0 +1,26 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/login/login",
+    "pages/charts/charts"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "wxchat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#00FF00",
+    "backgroundColor": "#0000FF",
+    "borderStyle": "#ddd",
+    "list": [
+      {
+        "text": "首页",
+        "iconPath": "/path/to/iconPath",
+        "selectedIconPath": "/path/to/selectedIconPath"
+      }
+    ]
+  }
+}
