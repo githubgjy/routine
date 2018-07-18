@@ -1,0 +1,24 @@
+<!--index.wxml-->
+<view class="container">
+ <include src="../common/header.wxml"/>  
+  <view wx:for="{{remoteInfo}}" wx:for-index="id" wx:for-item="itemName">
+    {{id}}-{{itemName.name}}-{{itemName.score}}
+  </view>
+  <view>
+    <image src="{{myImg}}" class="limit-img"></image>
+  </view>
+  <import src="../common/footer.wxml"/> 
+  <template is="footer" data="{{date:'2016-12-30',author:'家里蹲'}}" />   
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+    <text wx:if="{{motto=='Hello2 World'}}" class="user-motto">{{myText2}}</text>
+    <text wx:else class="mywork">{{myText}}</text>
+    <button class="primary" bindtap='myTap'>来点击我啊</button>
+  </view>
+  <view>
+    <button class="primary" bindtap='imgsave'>图片保存在本地</button>
+    <button class="primary" bindtap='upload'>图片上传</button>
+    <button class="primary" bindtap='uploadVideo'>视频上传</button>
+  </view>
+
+</view>

@@ -1,0 +1,7 @@
+ <template name="footer">
+    <view>
+      <text>
+        copyright {{date}} by {{author}}
+      </text>  
+    </view>  
+  </template>

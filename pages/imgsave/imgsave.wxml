@@ -1,0 +1,5 @@
+<view class='imgcontainer'>
+<button bindtap='keepImg'>保存图片</button>
+<button bindtap='deleteImg'>删除图片</button>
+  <image src="{{imgPath}}"></image>
+</view>

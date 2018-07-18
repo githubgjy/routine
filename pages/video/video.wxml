@@ -1,0 +1,7 @@
+<view class="container">
+  <button type='primary' bindtap='uploadVideo'>上传视频</button>
+  <view class='videoinfo' wx:for="{{videoList}}" wx:for-index="id" wx:for-item="item">
+    <video src='{{item}}' controls autoplay="true"></video>
+    <button type='primary' data-videoid='{{id}}' bindtap='downloadVideo'>下载</button>
+  </view>
+</view>

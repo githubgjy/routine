@@ -1,0 +1,12 @@
+/**index.wxss**/
+.usermotto {
+  margin-top: 200rpx;
+}
+.mywork{
+  color: red;
+}
+.limit-img{
+  display: inline-block;
+  width: 200rpx;
+  height: 200rpx
+}
