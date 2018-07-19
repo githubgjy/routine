@@ -6,7 +6,8 @@
     "pages/charts/charts",
     "pages/imgsave/imgsave",
     "pages/upload/upload",
-    "pages/video/video"
+    "pages/video/video",
+    "pages/list/list"
   ],
   "window": {
     "backgroundTextStyle": "light",

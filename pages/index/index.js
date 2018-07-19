@@ -60,6 +60,13 @@ Page({
       url: '../video/video'
     })
   },
+  //进入列表页
+  golist: function () {
+    wx.navigateTo({
+      
+      url: '../list/list'
+    })
+  },
   //自定义函数
   myTap: function() {
     this.setData({
