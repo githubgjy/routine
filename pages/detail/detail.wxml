@@ -1,0 +1,12 @@
+<!--pages/detail/detail.wxml-->
+<import src="../../wxParse/wxParse.wxml"/>  
+<view class='box'>
+ <view class='title'>{{title}}</view>
+ <view class='author-time'>
+   <view class='author'>{{author}}</view>
+   <view class='time'>{{time}}</view>
+ </view>
+ <view class='content'>
+   <template is="wxParse" data="{{wxParseData:content.nodes}}"></template> 
+ </view>
+</view>

@@ -7,7 +7,10 @@
     "pages/imgsave/imgsave",
     "pages/upload/upload",
     "pages/video/video",
-    "pages/list/list"
+    "pages/list/list",
+    "pages/listone/listone",
+    "pages/detail/detail",
+    "pages/shop/shop"
   ],
   "window": {
     "backgroundTextStyle": "light",

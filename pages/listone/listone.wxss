@@ -1,0 +1,67 @@
+/*整个容器*/
+.box{
+display: flex;
+flex-direction: column;/*竖直排列*/
+}
+/*title文字*/
+.list-header{
+font-size: 32rpx;
+font-weight: bold;
+color: #444;
+text-align: center;
+padding:20rpx;
+border-bottom: 2rpx solid #ccc;
+}
+/*列表项容器*/
+.list{
+display:flex;
+flex-direction: column;/*横向排列*/
+align-content: center;
+border-bottom:1rpx solid #ccc;
+}
+
+/*图片容器*/
+.list-img{
+display: flex;
+align-content: center;
+padding:20rpx 10rpx;
+}
+/*图片*/
+.avatar{
+width:100%;
+
+padding: 20rpx 0;
+}
+/*文字容器，包含标题和内容*/
+.list-main{
+display: flex;
+flex-direction: column;/*文字竖直排列*/
+align-content: center;
+padding:20rpx 20rpx;
+overflow: hidden;
+}
+.list-title{
+font-size: 28rpx;
+color: #717171;
+font-weight: bold;
+padding-bottom: 10rpx;
+overflow: hidden;
+text-overflow:ellipsis;
+white-space: nowrap;
+}
+.list-address{
+font-size: 24rpx;
+color: #999;
+font-weight: bold;
+}
+.list-content{
+font-size: 24rpx;
+color: #999;
+}/* pages/listnoe/listone.wxss */
+.fresh{
+  text-align: center;
+}
+.fresh .text{
+  font-size: 24rpx;
+  color: #999;
+}

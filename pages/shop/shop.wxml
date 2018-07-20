@@ -1,0 +1,32 @@
+<!--pages/shop/shop.wxml-->
+<view class='box'>
+<!--轮播-->
+ <swiper class='swiper_box' indicator-dots='true' autoplay='true' interval='3000' duration='800' bindchange='swiperchange'>
+   <block wx:for="{{images}}">
+     <swiper-item>
+      <image src='{{item.picurl}}' class='slide-image'></image>
+     </swiper-item>
+   </block>  
+ </swiper>
+<!--正文-->
+ <view class='main-box'>
+  <text class='shopname'>仔皇煲（西二旗店）</text>
+  <view class='star-price'>
+     <view>
+       <image class='star-images' src='../../images/light.png'></image>
+       <image class='star-images' src='../../images/light.png'></image>
+       <image class='star-images' src='../../images/light.png'></image>
+       <image class='star-images' src='../../images/dark.png'></image>
+       <image class='star-images' src='../../images/dark.png'></image>
+     </view>
+     <view class='price'>
+      ￥32
+     </view>
+  </view>
+  <view class='address-phone'>
+    <image src='../../images/position.png' class='position' bindtap='locatePos'></image>
+    <text class='address'>海淀区地铁13号线西二旗站B1出口南侧商业房</text>
+    <image src='../../images/tel.png' class='tel' bindtap='call'></image>
+  </view>
+ </view>
+</view>

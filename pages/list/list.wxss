@@ -48,8 +48,16 @@ font-size: 28rpx;
 color: #717171;
 font-weight: bold;
 padding-bottom: 10rpx;
+overflow: hidden;
+text-overflow:ellipsis;
+white-space: nowrap;
 }
 .list-content{
 font-size: 24rpx;
 color: #999;
+overflow:hidden; 
+text-overflow:ellipsis;
+display:-webkit-box; 
+-webkit-box-orient:vertical;
+-webkit-line-clamp:2; 
 }

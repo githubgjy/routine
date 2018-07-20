@@ -10,3 +10,6 @@
   width: 200rpx;
   height: 200rpx
 }
+.button-group button{
+  font-size: 26rpx;
+}

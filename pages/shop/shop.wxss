@@ -1,0 +1,67 @@
+/* pages/shop/shop.wxss */
+.box{
+display:flex;
+flex-direction: column;
+align-content: center;
+}
+.swiper_box{
+display:flex;
+align-content: center;
+flex-direction: row;
+}
+.slide-image{
+width:100%;
+height:100%;
+}
+.main-box{
+padding:20rpx 40rpx;
+display:flex;
+flex-direction: column;
+align-content: center;
+
+}
+.shopname{
+padding-bottom:20rpx;
+font-weight: bold;
+font-size:38rpx;
+}
+.star-price{
+display: flex;
+flex-direction: row;
+align-content: center;
+border-bottom:2rpx solid #ccc;
+padding-bottom:20rpx;
+}
+.star-image{
+width:15px;
+height:15px;
+}
+.price{
+color:#aaa;
+font-size:32rpx;
+padding:4rpx 10rpx;
+font-weight: bold;
+}
+.address-phone{
+display:flex;
+flex-direction: row;
+align-content: center;/*这个必须要加*/
+padding:30rpx 0;
+}
+.position{
+width:30px;
+height:30px;
+
+}
+.address{
+
+font-size:28rpx;
+border-right:1px solid #ccc;
+width:500rpx;
+font-weight: bold;
+}
+.tel{
+width:30px;
+height:30px;
+padding-left:40rpx;
+}

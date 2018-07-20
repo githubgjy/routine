@@ -15,11 +15,14 @@
     <text wx:else class="mywork">{{myText}}</text>
     <button class="primary" bindtap='myTap'>来点击我啊</button>
   </view>
-  <view>
+  <view class='button-group'>
     <button class="primary" bindtap='imgsave'>图片保存在本地</button>
     <button class="primary" bindtap='upload'>图片上传</button>
     <button class="primary" bindtap='uploadVideo'>视频上传</button>
     <button class="primary" bindtap='golist'>进入列表页</button>
+    <button class="primary" bindtap='golist01'>进入列表页01</button>
+    <button class="primary" bindtap='godetail'>进入详情页</button>
+    <button class="primary" bindtap='goshop'>进入商家</button>
   </view>
 
 </view>

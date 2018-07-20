@@ -1,0 +1,29 @@
+/* pages/detail/detail.wxss */
+.box{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+.title{
+  font-size: 40rpx;
+  font-weight: bold;
+  color: #333;
+}
+.author-time{
+  display: flex;
+  align-content: center;
+  padding: 30rpx;
+  border-bottom: 2px solid #666;
+}
+.author{
+  font-size: 30rpx;
+  width: 80%;
+}
+.time{
+  font-size: 24rpx;
+  color: #ccc;
+}
+.content{
+  padding: 20rpx 0;
+  width: 100%;
+}

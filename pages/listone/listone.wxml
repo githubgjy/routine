@@ -1,0 +1,20 @@
+<loading hidden="{{isLoading}}">
+  加载中...
+</loading>  
+<view class="box">
+<view class='fresh' wx:if="{{isRefesh}}">
+ 
+  <text class='text'>刷新中...</text>
+</view>
+  <text class='list-header'>精选文章</text>
+  <view class='list' wx:for='{{list}}'>
+     <view class='list-img'>
+       <image src="{{item.img}}" class='avatar'></image>
+     </view>
+     <view class='list-main'>
+        <view class='list-title'>{{item.title}}</view>
+        <view class='list-address'>{{item.address}}</view>
+        <view class='list-content'>{{item.content}}</view>
+     </view>   
+  </view>
+</view>
