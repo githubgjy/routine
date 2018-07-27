@@ -23,6 +23,7 @@
     <button class="primary" bindtap='golist01'>进入列表页01</button>
     <button class="primary" bindtap='godetail'>进入详情页</button>
     <button class="primary" bindtap='goshop'>进入商家</button>
+    <button class="primary" bindtap='goform'>进入表单</button>
   </view>
 
 </view>

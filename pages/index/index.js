@@ -68,6 +68,12 @@ Page({
       url: "../shop/shop"
     });
   },
+  //进入表单
+  goform: function () {
+    wx.navigateTo({
+      url: "../form/form"
+    });
+  },
   //进入列表页
   golist: function () {
     wx.navigateTo({

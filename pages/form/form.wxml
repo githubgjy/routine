@@ -1,0 +1,47 @@
+ <form bindsubmit="sub">
+        <view class="section">
+            <text class="mytext">姓名：</text>
+            <input type="text" name="userName" placeholder="请输入您的姓名" class="myinput" />
+        </view>
+        <view class="section">
+            <text class="mytext">性别：</text>
+            <radio-group name="sex">
+                <label>
+                    <radio value="0" checked="true" />男
+                </label>
+                <label>
+                    <radio value="1" />女
+                </label>
+            </radio-group>
+        </view>
+        <view class="section">
+            <text class="mytext">初次乘机:</text>
+            <switch checked name="isFirst" />
+        </view>
+        <view class="section">
+            <picker mode="date" value="{{date}}" start="1900-01-01" end="2018-01-01" bindchange="chooseBirthday">
+                <view class="birthday">
+                    <text class="mytext">生日:</text>
+                    <input type="text" name="birthday" value="{{date}}" placeholder="请输入您的生日" class="myinput" />
+                </view>
+
+            </picker>
+        </view>
+        <view class="section2">
+            <text class="mytext">对空姐满意度:</text>
+            <slider name="grade" min="0" max="100" show-value color="lightblue" selected-color="darkred" />
+        </view>
+        <view class="section">
+            <text class="mytext">舱位:</text>
+            <input type="text" name="cabin" value="{{cabin}}" placeholder="请选择舱位" class="myinput" bindtap="chooseCabin" />
+        </view>
+        <view class="section">
+            <text class="mytext">喜欢去的国家:</text>
+            <checkbox-group name="likeCountry">
+                <label wx:for="{{country}}">
+                    <checkbox value="{{item.name}}" checked="{{item.checked}}" />{{item.value}}
+                </label>
+            </checkbox-group>
+        </view>
+        <button formType="submit">提交</button>
+    </form>

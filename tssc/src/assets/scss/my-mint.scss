@@ -1,0 +1,83 @@
+.mint-tab-item-label {
+  font-size: 15px; /*no*/
+}
+.mint-cell-title {
+}
+.popout {
+  width: 100%;
+  top: 40px;
+}
+.mint-header.is-fixed {
+  z-index: 2000;
+}
+.showsearchlist .mint-header.is-fixed {
+  z-index: 2025;
+}
+.mui-table-viewlist02 .mint-cell {
+  margin: 0 10px;
+  border-bottom: 1px solid #c7c8cc;
+  z-index: 0;
+  top: -1px;
+
+  .mint-cell-value span {
+    font-size: 13px;
+   
+  }
+}
+.mint-cell-title {
+  font-size: 0.277778rem; /*no*/
+}
+.outposition {
+  .mint-search {
+    height: auto;
+  }
+  .mint-indexlist {
+    overflow: scroll;
+  }
+}
+.mint-indexlist-content {
+  height: auto;
+}
+.mint-navbar .mint-tab-item.is-selected {
+  border-bottom: 3px /*no*/ solid #26a2ff;
+  color: #26a2ff;
+}
+.login-wrapper {
+  margin-top: 20px;
+  overflow: hidden;
+  .mint-button {
+    border-radius: 20px;
+    width: calc(100% - 20px);
+    margin: 6px auto 0;
+  }
+  .error-login {
+    padding: 8px 0;
+    margin-left: 10px;
+    line-height: 25px;
+    color: red;
+    border-top: 1px solid #d9d9d9;
+  }
+}
+.register-wrapper {
+  margin-top: 20px;
+  overflow: hidden;
+  .mint-button {
+    border-radius: 20px;
+    width: calc(100% - 20px);
+    margin: 15px auto 0;
+  }
+  .error-register,
+  .wrong-text {
+    padding: 8px 0;
+    margin-left: 10px;
+    line-height: 25px;
+    color: red;
+    border-top: 1px solid #d9d9d9;
+  }
+}
+.mint-cell-wrapper {
+  background-size: 120% 1px; /*no*/
+  .mint-cell-value {
+    font-size: 15px; /*no*/
+  }
+}

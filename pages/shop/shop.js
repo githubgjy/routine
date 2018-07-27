@@ -22,6 +22,13 @@ Page({
           latitude: latitude,
           longitude: longitude
         });
+        var geocoder = new qq.maps.Geocoder({
+          complete: function (result) {   //解析成功的回调函数
+            var address = result.detail.address;  //获取详细地址信息
+            console.log(address);
+          }
+        });
+        geocoder.getAddress(new qq.maps.LatLng(res.latitude, res.longitude));
       }
     });
   },

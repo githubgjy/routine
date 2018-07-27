@@ -1,0 +1,28 @@
+/* pages/form/form.wxss */
+.section{
+display: flex;
+flex-direction: row;
+padding:20rpx;
+font-size:30rpx;
+}
+.section2{
+display: flex;
+flex-direction: column;
+padding:20rpx;
+font-size:30rpx;
+}
+.picker{
+display: flex;
+flex-direction: row;
+}
+.birthday{
+display: flex;
+flex-direction: row;
+}
+.myinput{
+border-bottom:solid 2rpx #ccc;
+}
+.mytext{
+padding:10rpx 20rpx;
+font-weight: bold;
+}

@@ -10,7 +10,8 @@
     "pages/list/list",
     "pages/listone/listone",
     "pages/detail/detail",
-    "pages/shop/shop"
+    "pages/shop/shop",
+    "pages/form/form"
   ],
   "window": {
     "backgroundTextStyle": "light",
