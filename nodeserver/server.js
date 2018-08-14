@@ -27,7 +27,6 @@ app.all("*", function(req, res, next) {
   res.header("Content-Type", "application/json;charset=utf-8");
   next();
 });
-
 var questions = [
   {
     data: 213,
@@ -117,13 +116,9 @@ app.get("/answer", function(req, res) {
 app.get("/indexdata", function(req, res) {
   res.status(200), res.json(indexdata);
 });
-
 //配置服务端口
 var server = app.listen(8100, function() {
   var host = server.address().address;
-
   var port = server.address().port;
-
   console.log("Example app listening at http://%s:%s", host, port);
 });
-
